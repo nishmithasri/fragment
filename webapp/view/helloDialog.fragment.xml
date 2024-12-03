@@ -1,0 +1,10 @@
+<core:FragmentDefinition xmlns:m="sap.m" xmlns:core="sap.ui.core">
+<m:Dialog title="Product List">
+<m:content>
+<m:List items="{/BusinessPartnerSet}" growing="true" growingThreshold="10" itemPress="onPressItem" mode="SingleSelect">
+<m:StandardListItem title="{CompanyName}" type="Active">
+</m:StandardListItem>
+</m:List>
+</m:content>
+</m:Dialog>
+</core:FragmentDefinition>
